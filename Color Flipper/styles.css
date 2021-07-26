@@ -1,0 +1,88 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background: #f0125f;
+}
+
+header {
+    background: white;
+    padding: 0.75em 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.12);
+}
+
+main {
+   min-height: 90vh; 
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.green {
+    color: green;
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item + .nav-item {
+    margin-left: 2.5em;
+}
+
+.nav-link {
+    color: seagreen;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.box {
+    text-align: center;
+    background: black;
+    padding: 1.5em 2em;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 0;
+    color: white;
+}
+
+.primary-btn {
+    display: block;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.primary-btn:hover {
+    color: black;
+    background: white;
+}
