@@ -1,9 +1,52 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
+    background: #010409;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 2em 0;
 }
 
 a {
-    display: block;
-    color: blue;
-
+    text-decoration: none;
+    color: #ffffff;
 }
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: min(700px, 90%);
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-name {
+    padding: 1em 0;
+    background: #0D1117;
+    font-size: 1.25rem;
+}
+.project-link {
+    display: block;
+}
+
+.project-link + .project-link {
+    border-top: 1px solid gray;
+}
+
+.project-name:hover,
+.project-name:focus {
+    background: #18202b;
+}
+
