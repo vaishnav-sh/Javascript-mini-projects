@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Digital';
+    src: url('./fonts/DS-DIGI.TTF');
+}
+
+body {
+    margin: 0;
+    font-family: 'Digital';
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.time {
+    font-size: 6rem;
+    letter-spacing: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sec {
+    font-size: 1.5rem;
+    position: relative;
+    top: -4px;
+    letter-spacing: 0;
+}
+
+.toggle-container {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+.toggle {
+    width: 50px;
+    height: 25px;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 100px;
+    position: relative;
+}
+
+.switch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 100%;
+    font-family: 'Material Icons';
+    content: 'light_mode';
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+
+    background: white;
+}
+
+.toggle-active .switch {
+    left: auto;
+    right: 0;
+}
+
+.dark-mode {
+    background-color: black;
+    color: green;
+}
+
+.dark-mode .time {
+    color: rgba(9, 224, 9, 0.562);
+}
