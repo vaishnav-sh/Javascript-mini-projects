@@ -30,6 +30,7 @@ p {
     border: 1px solid;
     border-radius: 10px;
     overflow: hidden;
+    margin-bottom: 4em;
 }
 
 .project-name {
