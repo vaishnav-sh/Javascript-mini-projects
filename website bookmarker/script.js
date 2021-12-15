@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', loadLocalStorage);
 form.addEventListener('submit', addItem);
 bookmarksContainer.addEventListener('click', removeItem);
 
-// add Item
+// add Item to list
 function addItem(e) {
     e.preventDefault();
     let url = urlInput.value;
@@ -31,9 +31,16 @@ function showItem(url, title) {
                                     </div>`;
 }
 
-// add item to local storage
-function addToLocalStorage(key, value) {
-    localStorage.setItem(key, value);
+// remove item from list
+function removeItem(e) {
+    if(e.target.classList.contains('delete')) {
+        if(confirm('Are you sure you want to delete?')) {
+            var item = e.target.parentElement.parentElement;
+            bookmarksContainer.removeChild(item);
+            let hrefVal = e.target.parentElement.previousElementSibling.getAttribute('href');
+            removeFromLocalStorage(hrefVal);
+        }
+    }
 }
 
 // load items from local storage
@@ -46,17 +53,12 @@ function loadLocalStorage() {
     }
 }
 
-function removeItem(e) {
-    if(e.target.classList.contains('delete')) {
-        if(confirm('Are you sure you want to delete?')) {
-            var item = e.target.parentElement.parentElement;
-            bookmarksContainer.removeChild(item);
-            let hrefVal = e.target.parentElement.parentElement.firstElementChild.getAttribute('href');
-            removeFromLocalStorage(hrefVal);
-        }
-    }
+// add item to localStorage
+function addToLocalStorage(key, value) {
+    localStorage.setItem(key, value);
 }
 
+// remove item from localStorage
 function removeFromLocalStorage(key) {
     localStorage.removeItem(key);
 }
