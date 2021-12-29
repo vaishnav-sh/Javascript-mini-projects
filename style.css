@@ -51,3 +51,11 @@ p {
     background: #18202b;
 }
 
+.footer {
+    padding-bottom: 2em;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    color: rgb(65, 255, 223);
+}
