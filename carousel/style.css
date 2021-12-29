@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(4, 125, 196)
+}
+
+.wrapper {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    width: min(700px, 90%);
+}
+
+.btn {
+    padding: 1em 1em;
+    border: none;
+}
+
+.dots {
+    margin-top: 1em;
+}
+
+.dot {
+    border: none;
+    background: rgb(194, 194, 194);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0.25em;
+}
+
+.dot-active {
+    background: rgb(90, 89, 89);
+}
+
+.footer {
+    text-align: center;
+    font-weight: 500;
+}
+
+p {
+    margin: 0;
+}

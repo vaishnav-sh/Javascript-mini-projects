@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Image carousel</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <button id="left-btn" class="btn">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <div id="img-container">
+                <img src="./images/pic-1.jpeg" alt="image" id="carousel-image">
+            </div>
+            <button id="right-btn" class="btn">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        <div class="dots">
+            <button class="dot dot-active"></button>
+            <button class="dot"></button>
+            <button class="dot"></button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Developed by <a href="https://twitter.com/Vaishnav_sh">Vaishnav</a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
