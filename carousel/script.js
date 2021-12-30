@@ -37,7 +37,6 @@ function previousImage() {
     }
     showImage();
     changeIndicator();
-
 }
 
 //moves to next image
@@ -50,7 +49,7 @@ function nextImage() {
     changeIndicator();
 }
 
-// configuring dots 
+// configuring dots when clicked
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
         currentItem = index;
