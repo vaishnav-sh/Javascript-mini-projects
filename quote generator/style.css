@@ -1,0 +1,57 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background: #1B1B32;
+    color: white;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+}
+
+a:hover,
+a:focus {
+    color: white;
+}
+
+.wrapper {
+    min-height: 94vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+    background: #0A0A23;
+    padding: 2em;
+    width: min(600px, 90%);
+}
+
+.author {
+    margin: 2em 0;
+    font-style: italic; 
+}
+
+.new-btn {
+    padding: 0.5em 1em;
+    background: transparent;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    border: 2px solid white;
+}
+
+.new-btn:hover {
+    background: #1B1B32;
+}
+
+footer {
+    font-size: 0.875rem;
+    text-align: center;
+    color: rgb(173, 173, 173);
+}
