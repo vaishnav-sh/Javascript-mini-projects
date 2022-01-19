@@ -7,11 +7,12 @@ This repository contains [all the projects](https://vaishnav-sh.github.io/Javasc
 | 1 | Website Bookmarker | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/website%20bookmarker/index.html) |
 | 2 | Border Radius Previewer | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/website%20bookmarker/index.html) |
 | 3 | Form Validator | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Form%20validator/index.html) |
-| 4 | Discount Calculator | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Counter/index.html) |
-| 5 | Color Flipper | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Color%20Flipper/index.html) |
-| 6 | Digital Clock | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/digital%20clock/index.html) |
-| 7 | Counter | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Counter/index.html) |
-| 8 | Timer | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/timer/index.html) |
+| 4 | Quote Generator | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/quote%20generator/index.html) |
+| 5 | Discount Calculator | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Counter/index.html) |
+| 6 | Color Flipper | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Color%20Flipper/index.html) |
+| 7 | Digital Clock | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/digital%20clock/index.html) |
+| 8 | Counter | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Counter/index.html) |
+| 9 | Timer | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/timer/index.html) |
 
 ## Web Components
 | # | Project     | Live Demo                |
