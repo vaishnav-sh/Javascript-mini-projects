@@ -5,7 +5,7 @@ This repository contains [all the projects](https://vaishnav-sh.github.io/Javasc
 | # | Project     | Live Demo                |
 | :-------- | :------- | :------------------------- |
 | 1 | Website Bookmarker | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/website%20bookmarker/index.html) |
-| 2 | Border Radius Previewer | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/website%20bookmarker/index.html) |
+| 2 | Border Radius Previewer | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Border%20radius%20previewer/index.html) |
 | 3 | Form Validator | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Form%20validator/index.html) |
 | 4 | Quote Generator | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/quote%20generator/index.html) |
 | 5 | Discount Calculator | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/Counter/index.html) |
