@@ -33,4 +33,4 @@ This repository contains [all the projects](https://vaishnav-sh.github.io/Javasc
 | #   | Project                  | Live Demo                                                                                              |
 | :-- | :----------------------- | :----------------------------------------------------------------------------------------------------- |
 | 1   | Quote Generator with API | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/quote%20generator%20API/index.html) |
-| 2   | Weather App              | [Live Demo](https://vaishnav-sh.github.io/Javascript-mini-projects/weather%20app/index.html)           |
+| 2   | Weather App              | [Live Demo](https://github.com/vaishnav-sh/weather-app)                                                |
